@@ -1,0 +1,835 @@
+==== Scanning at Thu Aug 24 16:23:38 PDT 2017 ====
+==== Scanning at Sat Sep 16 10:27:35 PDT 2017 ====
+Resolved issue FLO-3218 (scott@flowplay.com): "HX: Charm Parties: Error #3681 Texture size is zero "
+
+Resolved issue FLO-3266 (kristen@flowplay.com): "VG: Guy's Copacetic Set, var2 items are misshapen"
+
+Changed issue FLO-3202 (colin@flowplay.com): "HX: Non-fatal exception thrown occasionally when doing dance moves."
+Changes:
+	Last Updated | Fri Sep 15 15:35:00 PDT 2017 -> Sat Sep 16 10:09:03 PDT 2017
+	Comments | {parentIssueType=Bug, author=scottc@flowplay.com, id=16233, body=<p>I'm getting this 100% using the first dance (Icon shown in screenshot). </p>
+
+<p>1. Login as a male avatar (guy6@vegasworld.com / pass is what I was using)<br/>
+2. Navigate to social room<br/>
+3. Attempt to use the first dance on the list</p>
+
+<p>Actual Result<br/>
+The exception occurs, and the button no longer functions. </p>
+
+<p>Expected Result<br/>
+Avatar is able get down with all available dance moves. </p>, parentBugId=FLO-3202} -> {parentIssueType=Bug, author=scottc@flowplay.com, id=16233, body=<p>I'm getting this 100% using the first dance (Icon shown in screenshot). </p>
+
+<p>1. Login as a male avatar (guy6@vegasworld.com / pass is what I was using)<br/>
+2. Navigate to social room<br/>
+3. Attempt to use the first dance on the list</p>
+
+<p>Actual Result<br/>
+The exception occurs, and the button no longer functions. </p>
+
+<p>Expected Result<br/>
+Avatar is able get down with all available dance moves. </p>, parentBugId=FLO-3202}, {parentIssueType=Bug, author=chance@flowplay.com, id=16313, body=<p>Reopening. This still happens with various dance moves. Using a female avatar, you can see it at least with some of the dance moves in the bottom three rows of moves... once you get through the numerous warning messages which I think are due to 
+    <span class="jira-issue-macro" data-jira-key="FLO-2371" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-2371" class="jira-issue-macro-key issue-link"  title="FX: Create ddr Dance Move icons" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-2371
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">NEW</span>
+            </span>
+.</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>RangeError: Error #1125: The index 64 is out of range 64.
+	at avatar.dynamic_bitmap::AnimDefinition/readFromBin()[SharedX/Avatar/src/avatar/dynamic_bitmap/AnimDefinition.hx:133]
+	at avatar.dynamic_bitmap::AnimDefinition()[SharedX/Avatar/src/avatar/dynamic_bitmap/AnimDefinition.hx:50]
+	at avatar.dynamic_bitmap::Animation3D/handleCompleteBin()[SharedX/Avatar/src/avatar/dynamic_bitmap/Animation3D.hx:534]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.net::URLLoader/onComplete()
+</pre>
+</div></div>, parentBugId=FLO-3202}, {parentIssueType=Bug, author=colin@flowplay.com, id=16316, body=<p>animation data is stored in a collection of fixed length vectors, so I've been bumping up size to accommodate longer anims. set to 100 now.</p>, parentBugId=FLO-3202}
+
+Resolved issue FLO-3255 (kristen@flowplay.com): "VG: Girl's Oh My Goth Shoes, red color on var1 is too bright"
+
+Resolved issue FLO-3249 (devin@flowplay.com): "VG: Girl's Spooky Bride Gown should be in Dresses category"
+
+Resolved issue FLO-3258 (colin@flowplay.com): "HX: Incentive appearing during guest registering"
+
+Resolved issue FLO-3221 (david@flowplay.com): "HX:  Avatars: Charm Parties: Uncaught exception: Error #1009: Cannot access a property or method of a null object reference occurs"
+
+==== Scanning at Sat Sep 16 10:34:17 PDT 2017 ====
+Resolved issue FLO-3218 (scott@flowplay.com): "HX: Charm Parties: Error #3681 Texture size is zero "
+
+Resolved issue FLO-3266 (kristen@flowplay.com): "VG: Guy's Copacetic Set, var2 items are misshapen"
+
+Changed issue FLO-3202 (colin@flowplay.com): "HX: Non-fatal exception thrown occasionally when doing dance moves."
+Changes:
+	Last Updated | Fri Sep 15 15:35:00 PDT 2017 -> Sat Sep 16 10:09:03 PDT 2017
+	Comments | {parentIssueType=Bug, author=scottc@flowplay.com, id=16233, body=<p>I'm getting this 100% using the first dance (Icon shown in screenshot). </p>
+
+<p>1. Login as a male avatar (guy6@vegasworld.com / pass is what I was using)<br/>
+2. Navigate to social room<br/>
+3. Attempt to use the first dance on the list</p>
+
+<p>Actual Result<br/>
+The exception occurs, and the button no longer functions. </p>
+
+<p>Expected Result<br/>
+Avatar is able get down with all available dance moves. </p>, parentBugId=FLO-3202} -> {parentIssueType=Bug, author=scottc@flowplay.com, id=16233, body=<p>I'm getting this 100% using the first dance (Icon shown in screenshot). </p>
+
+<p>1. Login as a male avatar (guy6@vegasworld.com / pass is what I was using)<br/>
+2. Navigate to social room<br/>
+3. Attempt to use the first dance on the list</p>
+
+<p>Actual Result<br/>
+The exception occurs, and the button no longer functions. </p>
+
+<p>Expected Result<br/>
+Avatar is able get down with all available dance moves. </p>, parentBugId=FLO-3202}, {parentIssueType=Bug, author=chance@flowplay.com, id=16313, body=<p>Reopening. This still happens with various dance moves. Using a female avatar, you can see it at least with some of the dance moves in the bottom three rows of moves... once you get through the numerous warning messages which I think are due to 
+    <span class="jira-issue-macro" data-jira-key="FLO-2371" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-2371" class="jira-issue-macro-key issue-link"  title="FX: Create ddr Dance Move icons" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-2371
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">NEW</span>
+            </span>
+.</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>RangeError: Error #1125: The index 64 is out of range 64.
+	at avatar.dynamic_bitmap::AnimDefinition/readFromBin()[SharedX/Avatar/src/avatar/dynamic_bitmap/AnimDefinition.hx:133]
+	at avatar.dynamic_bitmap::AnimDefinition()[SharedX/Avatar/src/avatar/dynamic_bitmap/AnimDefinition.hx:50]
+	at avatar.dynamic_bitmap::Animation3D/handleCompleteBin()[SharedX/Avatar/src/avatar/dynamic_bitmap/Animation3D.hx:534]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.net::URLLoader/onComplete()
+</pre>
+</div></div>, parentBugId=FLO-3202}, {parentIssueType=Bug, author=colin@flowplay.com, id=16316, body=<p>animation data is stored in a collection of fixed length vectors, so I've been bumping up size to accommodate longer anims. set to 100 now.</p>, parentBugId=FLO-3202}
+
+Resolved issue FLO-3255 (kristen@flowplay.com): "VG: Girl's Oh My Goth Shoes, red color on var1 is too bright"
+
+Resolved issue FLO-3249 (devin@flowplay.com): "VG: Girl's Spooky Bride Gown should be in Dresses category"
+
+Resolved issue FLO-3258 (colin@flowplay.com): "HX: Incentive appearing during guest registering"
+
+Resolved issue FLO-3221 (david@flowplay.com): "HX:  Avatars: Charm Parties: Uncaught exception: Error #1009: Cannot access a property or method of a null object reference occurs"
+
+Created issue FLO-3286 (adriana@flowplay.com): "OW: High Speed Racer Pants and Jacket, checkerboard on thumbnails don't match items"
+
+Changed issue FLO-2713 (mbradwin@flowplay.com): "FX: Line breaks showing in Spending Limit in-game emails"
+Changes:
+	Status | RESOLVED -> STARTED
+	Last Updated | Fri Sep 15 15:59:11 PDT 2017 -> Sat Sep 16 09:14:12 PDT 2017
+	Comments | {parentIssueType=Bug, author=russell@flowplay.com, id=16187, body=<p>These "&lt;br/&gt;" breaks seen in the message are passed to the client from the server, and not under the client's control. This needs to be fixed at creation of the message, not when rendering the message.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=russell@flowplay.com, id=16191, body=<p>How do I get these "Options for buying cool stuff in Vegas World!" and "Your request to increase your purchase limits in Vegas World has been approved!" messages to appear in the client? </p>
+
+<p>When I use the "inbox-all" cheat they are not listed. Looking at this bug report it appears the message strings are not supplied by the server correctly.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=russell@flowplay.com, id=16192, body=<p>At any rate, this is not a problem in the Inbox client-side code. The server need to pass clean strings to the client. Not sure who to pass this to.  Passing to Scott.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=chance@flowplay.com, id=16193, body=<p>Those emails are sent from the admin page. In the User Fraud Filtering section, click on "Spending Limit Exceeded" button to send one email, and set User Fraud Filter Level to Unlimited to send the other. I just did it for your account.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=russell@flowplay.com, id=16194, body=<p>OK, so the admin page is not sending properly formatted strings to the client and is including "&lt;br/&gt;" HTML tags. </p>
+
+<p>I'm not sure where the admin page code is, and who wrote it, but this issue is not in how the client displays the string. </p>
+
+<p>The admin tool needs to send the message string without the "&lt;br/&gt;" HTML tag for line breaks.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=chance@flowplay.com, id=16195, body=<p>In that case, I'll take a chance and assign this to Mark B.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=mbradwin@flowplay.com, id=16293, body=<p>The Flash9 client does support HTML in inbox messages. Would it be possible to support it in FlashX too?</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=mbradwin@flowplay.com, id=16295, body=<p>Removed HTML from the 3 spending limit emails in the user admin tool.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=russell@flowplay.com, id=16297, body=<p>As discussed with Joshua and Mark B, the Haxe client can't easily support HTML in Strings like the Flash9 client did.</p>, parentBugId=FLO-2713} -> {parentIssueType=Bug, author=russell@flowplay.com, id=16187, body=<p>These "&lt;br/&gt;" breaks seen in the message are passed to the client from the server, and not under the client's control. This needs to be fixed at creation of the message, not when rendering the message.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=russell@flowplay.com, id=16191, body=<p>How do I get these "Options for buying cool stuff in Vegas World!" and "Your request to increase your purchase limits in Vegas World has been approved!" messages to appear in the client? </p>
+
+<p>When I use the "inbox-all" cheat they are not listed. Looking at this bug report it appears the message strings are not supplied by the server correctly.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=russell@flowplay.com, id=16192, body=<p>At any rate, this is not a problem in the Inbox client-side code. The server need to pass clean strings to the client. Not sure who to pass this to.  Passing to Scott.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=chance@flowplay.com, id=16193, body=<p>Those emails are sent from the admin page. In the User Fraud Filtering section, click on "Spending Limit Exceeded" button to send one email, and set User Fraud Filter Level to Unlimited to send the other. I just did it for your account.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=russell@flowplay.com, id=16194, body=<p>OK, so the admin page is not sending properly formatted strings to the client and is including "&lt;br/&gt;" HTML tags. </p>
+
+<p>I'm not sure where the admin page code is, and who wrote it, but this issue is not in how the client displays the string. </p>
+
+<p>The admin tool needs to send the message string without the "&lt;br/&gt;" HTML tag for line breaks.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=chance@flowplay.com, id=16195, body=<p>In that case, I'll take a chance and assign this to Mark B.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=mbradwin@flowplay.com, id=16293, body=<p>The Flash9 client does support HTML in inbox messages. Would it be possible to support it in FlashX too?</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=mbradwin@flowplay.com, id=16295, body=<p>Removed HTML from the 3 spending limit emails in the user admin tool.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=russell@flowplay.com, id=16297, body=<p>As discussed with Joshua and Mark B, the Haxe client can't easily support HTML in Strings like the Flash9 client did.</p>, parentBugId=FLO-2713}, {parentIssueType=Bug, author=mbradwin@flowplay.com, id=16315, body=<p>Reopened due to 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3288" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3288" class="jira-issue-macro-key issue-link"  title="ALL: Admin: Unable to search for user" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3288
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">RESOLVED</span>
+            </span>
+. The fraud filter emails were getting translated directly into the jsp, which was causing javascript errors. I'll have to change it so it translates servlet side on Monday.</p>, parentBugId=FLO-2713}
+
+Changed issue FLO-3285 (kristen@flowplay.com): "VG: Guy's High Speed Racer Pants, var4 checkerboard becomes solid"
+Changes:
+	Assignee | kristen@flowplay.com -> adriana@flowplay.com
+	Last Updated | Fri Sep 15 22:28:11 PDT 2017 -> Fri Sep 15 22:53:42 PDT 2017
+	Changed By | chance@flowplay.com -> kristen@flowplay.com
+
+Resolved issue FLO-2866 (zach@flowplay.com): "HX: Bet Zone: 'Cannot load room' error appears"
+
+Created issue FLO-3287 (adriana@flowplay.com): "VG: Girl's High Speed Racer Set, var2 and 4 previews don't match items"
+
+Resolved issue FLO-3254 (kristen@flowplay.com): "VG: Girl's High Speed Racer Pants, bad checkerboard pattern on vars 2, 4, and 5"
+
+Changed issue FLO-3250 (kristen@flowplay.com): "VG: Guy's High Speed Racer items, some var thumbnails too dark"
+Changes:
+	Assignee | kristen@flowplay.com -> adriana@flowplay.com
+	Status | RESOLVED -> REOPENED
+	Last Updated | Fri Sep 15 14:05:02 PDT 2017 -> Fri Sep 15 22:56:52 PDT 2017
+	Changed By | johnny@flowplay.com -> kristen@flowplay.com
+	Comments |  -> {parentIssueType=Bug, author=chance@flowplay.com, id=16312, body=<p>Reopening. It all looks good except for the item below. The thumbnail is black but the item is green.</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>High Speed Racer Boots:
+  11019204
+  i/vg/avatars/attire/events/2017/halloween/outfit_002/mshoes4
+</pre>
+</div></div>, parentBugId=FLO-3250}
+
+Created issue FLO-3288 (mbradwin@flowplay.com): "ALL: Admin: Unable to search for user"
+
+Created issue FLO-3289 (kristen@flowplay.com): "OW/VG: Girl's Spooky Bride Gown, var 2 and 3 thumbnails don't match items"
+
+Resolved issue FLO-3220 (zach@flowplay.com): "HX: Party Buster causes an uncaught exception "Something is trying to modify the Mvector""
+
+==== Scanning at Tue Sep 19 20:36:57 PDT 2017 ====
+Changed issue FLO-3326 (doug@flowplay.com): "All: Doug test issue"
+Changes:
+	Sprint | 10/2 Sprint (30) -> Icebox (20)
+	Last Updated | Tue Sep 19 18:47:42 PDT 2017 -> Tue Sep 19 20:36:31 PDT 2017
+
+==== Scanning at Wed Sep 20 13:20:11 PDT 2017 ====
+==== Scanning at Wed Sep 20 13:22:07 PDT 2017 ====
+==== Scanning at Wed Sep 20 13:25:09 PDT 2017 ====
+==== Scanning at Thu Sep 21 22:41:13 PDT 2017 ====
+==== Scanning at Thu Sep 21 22:43:40 PDT 2017 ====
+==== Scanning at Tue Sep 26 20:13:09 PDT 2017 ====
+==== Scanning at Tue Sep 26 20:14:27 PDT 2017 ====
+==== Scanning at Tue Sep 26 20:15:02 PDT 2017 ====
+==== Scanning at Tue Sep 26 20:41:36 PDT 2017 ====
+==== Scanning at Tue Sep 26 20:45:17 PDT 2017 ====
+==== Scanning at Tue Sep 26 20:49:50 PDT 2017 ====
+==== Scanning at Tue Sep 26 20:50:54 PDT 2017 ====
+==== Scanning at Tue Sep 26 21:08:17 PDT 2017 ====
+==== Scanning at Tue Sep 26 21:11:32 PDT 2017 ====
+Created issue FLO-3394 (doug@flowplay.com): "HX: Start on back end API for clothing manager"
+
+Changed issue FLO-2753 (hazel@flowplay.com): "All: Test bug for Hazel to work with"
+Changes:
+	Last Updated | Tue Sep 26 20:41:12 PDT 2017 -> Tue Sep 26 21:11:26 PDT 2017
+	Comments | {parentIssueType=Bug, author=hazel@flowplay.com, id=15479, body=<p>this is a test comment</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, id=16011, body=<p>Including a reference to another bug, 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3117" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3117" class="jira-issue-macro-key issue-link"  title="FX: Cheat &quot;wear a,b,c&quot; doesn&#39;t function correctly" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3117
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">DONE</span>
+            </span>
+.  To see if we get a link to it or not.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, id=16012, body=<p>One more try with a reference to bug 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3117" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3117" class="jira-issue-macro-key issue-link"  title="FX: Cheat &quot;wear a,b,c&quot; doesn&#39;t function correctly" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3117
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">DONE</span>
+            </span>
+ to see what happens.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, id=16616, body=<p>Adding a test comment to the test bug.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, id=16617, body=<p>Adding another comment.</p>, parentBugId=FLO-2753} -> {parentIssueType=Bug, author=hazel@flowplay.com, created=2017-08-15T10:08:02.888-0700, id=15479, body=<p>this is a test comment</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-07T23:36:20.261-0700, id=16011, body=<p>Including a reference to another bug, 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3117" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3117" class="jira-issue-macro-key issue-link"  title="FX: Cheat &quot;wear a,b,c&quot; doesn&#39;t function correctly" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3117
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">DONE</span>
+            </span>
+.  To see if we get a link to it or not.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-08T00:19:30.007-0700, id=16012, body=<p>One more try with a reference to bug 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3117" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3117" class="jira-issue-macro-key issue-link"  title="FX: Cheat &quot;wear a,b,c&quot; doesn&#39;t function correctly" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3117
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">DONE</span>
+            </span>
+ to see what happens.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-26T20:14:17.231-0700, id=16616, body=<p>Adding a test comment to the test bug.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-26T20:41:12.630-0700, id=16617, body=<p>Adding another comment.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-26T21:11:26.673-0700, id=16618, body=<p>And one more comment.</p>, parentBugId=FLO-2753}
+
+==== Scanning at Tue Sep 26 21:13:34 PDT 2017 ====
+Created issue FLO-3394 (doug@flowplay.com): "HX: Start on back end API for clothing manager"
+
+Changed issue FLO-2753 (hazel@flowplay.com): "All: Test bug for Hazel to work with"
+Changes:
+	Last Updated | Tue Sep 26 20:41:12 PDT 2017 -> Tue Sep 26 21:11:26 PDT 2017
+	Comments | {parentIssueType=Bug, author=hazel@flowplay.com, id=15479, body=<p>this is a test comment</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, id=16011, body=<p>Including a reference to another bug, 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3117" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3117" class="jira-issue-macro-key issue-link"  title="FX: Cheat &quot;wear a,b,c&quot; doesn&#39;t function correctly" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3117
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">DONE</span>
+            </span>
+.  To see if we get a link to it or not.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, id=16012, body=<p>One more try with a reference to bug 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3117" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3117" class="jira-issue-macro-key issue-link"  title="FX: Cheat &quot;wear a,b,c&quot; doesn&#39;t function correctly" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3117
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">DONE</span>
+            </span>
+ to see what happens.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, id=16616, body=<p>Adding a test comment to the test bug.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, id=16617, body=<p>Adding another comment.</p>, parentBugId=FLO-2753} -> {parentIssueType=Bug, author=hazel@flowplay.com, created=2017-08-15T10:08:02.888-0700, id=15479, body=<p>this is a test comment</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-07T23:36:20.261-0700, id=16011, body=<p>Including a reference to another bug, 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3117" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3117" class="jira-issue-macro-key issue-link"  title="FX: Cheat &quot;wear a,b,c&quot; doesn&#39;t function correctly" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3117
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">DONE</span>
+            </span>
+.  To see if we get a link to it or not.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-08T00:19:30.007-0700, id=16012, body=<p>One more try with a reference to bug 
+    <span class="jira-issue-macro resolved" data-jira-key="FLO-3117" >
+                <!-- replace the span with an AUI template -->
+        <a href="https://flowplay.atlassian.net/browse/FLO-3117" class="jira-issue-macro-key issue-link"  title="FX: Cheat &quot;wear a,b,c&quot; doesn&#39;t function correctly" >
+            <img class="icon" src="https://flowplay.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype" />
+            FLO-3117
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">DONE</span>
+            </span>
+ to see what happens.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-26T20:14:17.231-0700, id=16616, body=<p>Adding a test comment to the test bug.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-26T20:41:12.630-0700, id=16617, body=<p>Adding another comment.</p>, parentBugId=FLO-2753}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-09-26T21:11:26.673-0700, id=16618, body=<p>And one more comment.</p>, parentBugId=FLO-2753}
+
+==== Scanning at Thu Sep 28 16:55:57 PDT 2017 ====
+==== Scanning at Thu Sep 28 17:01:44 PDT 2017 ====
+Changed issue FLO-2785 (zach@flowplay.com): "Offers: Update Incentive 112: Save Character (Dev)"
+Changes:
+	Last Updated | Thu Sep 28 15:34:56 PDT 2017 -> Thu Sep 28 17:00:10 PDT 2017
+	Changed By | zach@flowplay.com -> chance@flowplay.com
+	Comments | {parentIssueType=Task, author=naveen@flowplay.com, created=2017-09-28T11:53:17.034-0700, id=16670, body=<p>Checked on QA today and the "Get Free 100,000" with the coin symbol seem a little out of place.  Is it possible to bring that text and coin symbol up a little within the gold banner so it looks more like Jenny's version? <a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=zach" class="user-hover" rel="zach">Zach Barth</a></p>
+
+<p><span class="image-wrap" style=""><a id="13509_thumb" href="https://flowplay.atlassian.net/secure/attachment/13509/13509_Save+Dialogue.png" title="Save Dialogue.png" file-preview-type="image" file-preview-id="13509" file-preview-title="Save Dialogue.png"><jira-attachment-thumbnail url="https://flowplay.atlassian.net/secure/thumbnail/13509/Save+Dialogue.png?default=false" jira-url="https://flowplay.atlassian.net/secure/thumbnail/13509/Save+Dialogue.png" filename="Save Dialogue.png"><img src="https://flowplay.atlassian.net/secure/thumbnail/13509/Save+Dialogue.png" data-attachment-name="Save Dialogue.png" data-attachment-type="thumbnail" data-media-services-id="36811f15-e724-45ae-8a9d-a4a045a1f2f0" data-media-services-type="file" style="border: 0px solid black" /></jira-attachment-thumbnail></a></span>   </p>
+
+<p>Other that that it looks like when I do click on the Save button on the incentive, I am indeed led to the Save dialogue where I successfully saved my character.  <a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=chance" class="user-hover" rel="chance">Chance Warner</a> can you help me confirm as well?</p>, parentBugId=FLO-2785}, {parentIssueType=Task, author=zach@flowplay.com, created=2017-09-28T13:49:13.793-0700, id=16673, body=<p>I adjusted the banner text upward a bit and should be viable tomorrow.</p>, parentBugId=FLO-2785}, {parentIssueType=Task, author=chance@flowplay.com, created=2017-09-28T15:15:19.003-0700, id=16685, body=<p>Yeah, looks like the button is going to the right place. And hey, just to be completely annoying, and to debut my first comment in a Task, can we capitalize "Your" like the mockup?</p>, parentBugId=FLO-2785}, {parentIssueType=Task, author=zach@flowplay.com, created=2017-09-28T15:34:56.174-0700, id=16687, body=<p>NEVER! (jk) I also just adjusted that as well should be visible tomorrow.</p>, parentBugId=FLO-2785} -> {parentIssueType=Task, author=naveen@flowplay.com, created=2017-09-28T11:53:17.034-0700, id=16670, body=<p>Checked on QA today and the "Get Free 100,000" with the coin symbol seem a little out of place.  Is it possible to bring that text and coin symbol up a little within the gold banner so it looks more like Jenny's version? <a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=zach" class="user-hover" rel="zach">Zach Barth</a></p>
+
+<p><span class="image-wrap" style=""><a id="13509_thumb" href="https://flowplay.atlassian.net/secure/attachment/13509/13509_Save+Dialogue.png" title="Save Dialogue.png" file-preview-type="image" file-preview-id="13509" file-preview-title="Save Dialogue.png"><jira-attachment-thumbnail url="https://flowplay.atlassian.net/secure/thumbnail/13509/Save+Dialogue.png?default=false" jira-url="https://flowplay.atlassian.net/secure/thumbnail/13509/Save+Dialogue.png" filename="Save Dialogue.png"><img src="https://flowplay.atlassian.net/secure/thumbnail/13509/Save+Dialogue.png" data-attachment-name="Save Dialogue.png" data-attachment-type="thumbnail" data-media-services-id="36811f15-e724-45ae-8a9d-a4a045a1f2f0" data-media-services-type="file" style="border: 0px solid black" /></jira-attachment-thumbnail></a></span>   </p>
+
+<p>Other that that it looks like when I do click on the Save button on the incentive, I am indeed led to the Save dialogue where I successfully saved my character.  <a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=chance" class="user-hover" rel="chance">Chance Warner</a> can you help me confirm as well?</p>, parentBugId=FLO-2785}, {parentIssueType=Task, author=zach@flowplay.com, created=2017-09-28T13:49:13.793-0700, id=16673, body=<p>I adjusted the banner text upward a bit and should be viable tomorrow.</p>, parentBugId=FLO-2785}, {parentIssueType=Task, author=chance@flowplay.com, created=2017-09-28T15:15:19.003-0700, id=16685, body=<p>Yeah, looks like the button is going to the right place. And hey, just to be completely annoying, and to debut my first comment in a Task, can we capitalize "Your" like the mockup?</p>, parentBugId=FLO-2785}, {parentIssueType=Task, author=zach@flowplay.com, created=2017-09-28T15:34:56.174-0700, id=16687, body=<p>NEVER! (jk) I also just adjusted that as well should be visible tomorrow.</p>, parentBugId=FLO-2785}, {parentIssueType=Task, author=chance@flowplay.com, created=2017-09-28T17:00:10.825-0700, id=16696, body=<p>Hey Zach, it looks like the string key "incentive.save.message" was updated, but I think it should be "fx.rv.incentive.save.message".</p>, parentBugId=FLO-2785}
+
+==== Scanning at Thu Sep 28 17:06:48 PDT 2017 ====
+==== Scanning at Thu Sep 28 17:07:34 PDT 2017 ====
+Changed issue FLO-3429 (lisaw@flowplay.com): "HX: Multihand Video Poker: "Delayimp" exception if you leave while cards turn over"
+Changes:
+	Changed By | chance@flowplay.com -> scott@flowplay.com
+
+==== Scanning at Mon Oct 02 09:40:33 PDT 2017 ====
+Resolved issue FLO-3317 (max@flowplay.com): "HX: Payment Flow Update: Assist and Review Implementation by Dev (Zach)"
+
+Changed issue FLO-2633 (arnewsome@flowplay.com): "HX: Watusi: New Dice Throw Sequence"
+Changes:
+	Last Updated | Mon Sep 18 15:29:16 PDT 2017 -> Mon Oct 02 09:24:39 PDT 2017
+	Comments | {parentIssueType=Task, author=michael@flowplay.com, created=2017-09-18T11:13:39.701-0700, id=16327, body=<p>Waiting on final animation from Fazaad.</p>, parentBugId=FLO-2633} -> {parentIssueType=Task, author=michael@flowplay.com, created=2017-09-18T11:13:39.701-0700, id=16327, body=<p>Waiting on final animation from Fazaad.</p>, parentBugId=FLO-2633}, {parentIssueType=Task, author=michael@flowplay.com, created=2017-10-02T09:24:39.162-0700, id=16760, body=<p><a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=arnewsome" class="user-hover" rel="arnewsome">Aaron Newsome</a>, what exactly is blocking this? thanks.</p>, parentBugId=FLO-2633}
+
+Changed issue FLO-3156 (beau@flowplay.com): "FX: Maintenance page does not load with HTTPS"
+Changes:
+	Status | NEW -> STARTED
+	Last Updated | Fri Sep 15 14:51:35 PDT 2017 -> Mon Oct 02 08:04:48 PDT 2017
+
+Changed issue FLO-2688 (kaari@flowplay.com): "HX: Dragon Mahjong: Pre-Game Screen: UI Design"
+Changes:
+	Days | 1.5 -> 2.0
+	Last Updated | Fri Sep 29 13:00:12 PDT 2017 -> Mon Oct 02 08:06:18 PDT 2017
+	Changed By | michael@flowplay.com -> kaari@flowplay.com
+
+Changed issue FLO-3203 (matt@flowplay.com): "HX: Main Menu Background Music + Ambiance"
+Changes:
+	Status | TO DO -> STARTED
+	Last Updated | Wed Sep 13 14:58:22 PDT 2017 -> Mon Oct 02 09:26:39 PDT 2017
+
+Changed issue FLO-2689 (kaari@flowplay.com): "HX: Dragon Mahjong: Post Game Screen (Win and Lose): UI Design"
+Changes:
+	Days | 1.5 -> 2.0
+	Last Updated | Fri Sep 29 13:01:00 PDT 2017 -> Mon Oct 02 08:05:43 PDT 2017
+	Changed By | michael@flowplay.com -> kaari@flowplay.com
+
+Resolved issue FLO-3011 (max@flowplay.com): "HX: Party Charms: Revive Party Charms Dialog: UI Design"
+
+Changed issue FLO-1140 (max@flowplay.com): "VWC: (Handset) Enlarge dialog close buttons or hit area"
+Changes:
+	Days |  -> 1.5
+	Last Updated | Sun Oct 01 17:41:48 PDT 2017 -> Mon Oct 02 08:25:28 PDT 2017
+	Changed By | michael@flowplay.com -> max@flowplay.com
+
+Changed issue FLO-3458 (kaari@flowplay.com): "HX: Mahjong: Shuffle Offer UI Design"
+Changes:
+	Days |  -> 2.0
+	Last Updated | Sun Oct 01 17:40:00 PDT 2017 -> Mon Oct 02 08:05:25 PDT 2017
+	Changed By | michael@flowplay.com -> kaari@flowplay.com
+
+Resolved issue FLO-2805 (max@flowplay.com): "HX: Payment Flow Update: Design: Slicing/export of final assets"
+
+Changed issue FLO-1139 (max@flowplay.com): "VWC: (Handset) Enlarge text and re-layout Parties dialog"
+Changes:
+	Days |  -> 2.0
+	Last Updated | Sun Oct 01 17:41:20 PDT 2017 -> Mon Oct 02 08:26:29 PDT 2017
+	Changed By | michael@flowplay.com -> max@flowplay.com
+
+Resolved issue FLO-3037 (matt@flowplay.com): "VG: Happy Pays Slot Sounds"
+
+Changed issue FLO-2963 (heath@flowplay.com): "HX: Implement App Rating in iOS"
+Changes:
+	Summary | HX: Implement App Rating in iOS -> HX VWC: Implement App Rating in iOS
+	Status | TO DO -> STARTED
+	Last Updated | Mon Sep 18 15:29:22 PDT 2017 -> Mon Oct 02 07:57:42 PDT 2017
+	Changed By | michael@flowplay.com -> heath@flowplay.com
+
+Changed issue FLO-1352 (heath@flowplay.com): "VWC: Firebase push messaging for iOS and Android"
+Changes:
+	Summary | VWC: Firebase push messaging for iOS and Android -> FX VWC: Firebase push messaging for iOS and Android
+	Last Updated | Wed Sep 06 13:28:54 PDT 2017 -> Mon Oct 02 07:58:19 PDT 2017
+	Changed By | michael@flowplay.com -> heath@flowplay.com
+
+Resolved issue FLO-2661 (heath@flowplay.com): "HX: Facebook Native Extension"
+
+Resolved issue FLO-3233 (max@flowplay.com): "HX: Thank You Friend Request: Modify Thank You Dialog to include Friend Request by Default (Design)"
+
+Changed issue FLO-1138 (max@flowplay.com): "VWC: (Handset) Enlarge text and re-layout What's New dialog"
+Changes:
+	Days |  -> 2.0
+	Last Updated | Sun Oct 01 17:41:02 PDT 2017 -> Mon Oct 02 08:28:44 PDT 2017
+	Changed By | michael@flowplay.com -> max@flowplay.com
+
+Changed issue FLO-2964 (heath@flowplay.com): "VWC: Implement App Rating in Android"
+Changes:
+	Summary | VWC: Implement App Rating in Android -> HX VWC: Implement App Rating in Android
+	Status | BLOCKED -> STARTED
+	Last Updated | Sat Sep 30 11:18:35 PDT 2017 -> Mon Oct 02 07:57:47 PDT 2017
+	Changed By | craig@flowplay.com -> heath@flowplay.com
+
+Changed issue FLO-2260 (heath@flowplay.com): "VWC: App Update: Mobile app upgrade prompt"
+Changes:
+	Summary | VWC: App Update: Mobile app upgrade prompt -> HX VWC: App Update: Mobile app upgrade prompt
+	Status | BLOCKED -> STARTED
+	Last Updated | Mon Sep 18 15:29:22 PDT 2017 -> Mon Oct 02 07:57:36 PDT 2017
+	Changed By | michael@flowplay.com -> heath@flowplay.com
+
+Changed issue FLO-3271 (arnewsome@flowplay.com): "HX: Dragon Mahjong: Daily Rewards Screen"
+Changes:
+	Status | STARTED -> BLOCKED
+	Last Updated | Mon Sep 25 09:50:12 PDT 2017 -> Mon Oct 02 08:40:23 PDT 2017
+
+==== Scanning at Mon Oct 09 18:12:58 PDT 2017 ====
+==== Scanning at Mon Oct 09 18:14:09 PDT 2017 ====
+==== Scanning at Mon Oct 09 18:24:29 PDT 2017 ====
+==== Scanning at Mon Oct 09 18:25:15 PDT 2017 ====
+==== Scanning at Mon Oct 09 18:26:23 PDT 2017 ====
+==== Scanning at Mon Oct 09 18:28:13 PDT 2017 ====
+==== Scanning at Mon Oct 09 18:31:04 PDT 2017 ====
+==== Scanning at Mon Oct 09 18:33:24 PDT 2017 ====
+Changed issue FLO-3500 (doug@flowplay.com): "All: Next steps towards rolling release"
+Changes:
+	Product Owner | null -> doug@flowplay.com
+
+==== Scanning at Thu Oct 12 10:48:52 PDT 2017 ====
+Changed issue FLO-3625 (craig@flowplay.com): "Tablet-All: VWS: Login: Login error text not customer facing "
+Changes:
+	Status | NEW -> RESOLVED
+	Last Updated | Wed Oct 11 14:23:06 PDT 2017 -> Thu Oct 12 10:47:13 PDT 2017
+	Changed By | Justine@flowplay.com -> craig@flowplay.com
+	Comments |  -> {parentIssueType=Bug, author=craig@flowplay.com, created=2017-10-12T10:47:13.181-0700, id=17062, body=<p>I <b>think</b> I prevented this issue from happening. Let me know if you still see it after this.</p>, parentBugId=FLO-3625}
+
+==== Scanning at Thu Oct 12 10:53:07 PDT 2017 ====
+==== Scanning at Thu Oct 12 10:54:05 PDT 2017 ====
+==== Scanning at Mon Oct 16 14:38:56 PDT 2017 ====
+Changed issue FLO-3741 (russ@flowplay.com): "HX: Lilypond Solitaire: Wizard Frog text is cut off"
+Changes:
+	Status | STARTED -> RESOLVED
+	Last Updated | Mon Oct 16 14:34:13 PDT 2017 -> Mon Oct 16 14:38:36 PDT 2017
+	Changed By | chance@flowplay.com -> russ@flowplay.com
+	Comments |  -> {parentIssueType=Bug, author=russ@flowplay.com, created=2017-10-16T14:38:36.557-0700, id=17183, body=<p>Fixed. Increased height of text box to accommodate three lines.</p>, parentBugId=FLO-3741}
+
+==== Scanning at Mon Oct 16 14:49:01 PDT 2017 ====
+==== Scanning at Mon Oct 16 14:50:50 PDT 2017 ====
+Changed issue FLO-3621 (zach@flowplay.com): "All: Extend version string in client to show a little more info"
+Changes:
+	Changed By | doug@flowplay.com -> zach@flowplay.com
+
+==== Scanning at Fri Oct 20 11:57:08 PDT 2017 ====
+Changed issue FLO-2093 (russell@flowplay.com): "HX: Lottery: Charms don't pay out after winning"
+Changes:
+	Status | NEW -> STARTED
+	Last Updated | Thu Oct 19 14:24:34 PDT 2017 -> Fri Oct 20 10:35:01 PDT 2017
+
+Changed issue FLO-3745 (kristen@flowplay.com): "HX: Design doc for outfit/charm payout combo from Johnny's idea board"
+Changes:
+	Status | TO DO -> STARTED
+	Last Updated | Sat Oct 14 22:27:53 PDT 2017 -> Fri Oct 20 10:19:45 PDT 2017
+	Changed By | doug@flowplay.com -> kristen@flowplay.com
+
+Resolved issue FLO-3319 (scott@flowplay.com): "HX: New Ksound.play method with Autocleaner"
+
+Resolved issue FLO-3762 (caleb@flowplay.com): "All: Improve KPI overview worksheet in Power BI"
+
+Resolved issue FLO-3576 (mbradwin@flowplay.com): "New audience for incentive 118"
+
+Resolved issue FLO-1142 (max@flowplay.com): "VWC: (Handset) Enlarge Gems and Coins pop up menus"
+
+Resolved issue FLO-2202 (jake@flowplay.com): "HX: Dragon Mahjong: World Map: Mountain 3: Liberated, with anims: Art"
+
+Changed issue FLO-3799 (russell@flowplay.com): "Lottery: Adding circles around winning numbers + explanation of the type of reward you've got on Winning Results"
+Changes:
+	Status | TO DO -> STARTED
+	Last Updated | Thu Oct 19 10:05:30 PDT 2017 -> Fri Oct 20 10:31:34 PDT 2017
+	Changed By | juan@flowplay.com -> russell@flowplay.com
+
+Resolved issue FLO-3391 (zach@flowplay.com): "FX/HX VWC: Flag to suppress What's New for FX (Front End)"
+
+Changed issue FLO-1299 (scott@flowplay.com): "Tablet-Android: FX: Background items pop in/load very slowly after dismissing confirmation dialog"
+Changes:
+	Product Owner |  -> scott@flowplay.com
+	Last Updated | Tue Jun 27 16:55:49 PDT 2017 -> Fri Oct 20 09:31:18 PDT 2017
+	Changed By | michael@flowplay.com -> devin@flowplay.com
+
+Created issue FLO-3818 (craig@flowplay.com): "VWS: UWP: After creating a party the first time player is sent to incorrect screen"
+
+Changed issue FLO-3561 (colin@flowplay.com): "HX: Add mobile app store badges to front page"
+Changes:
+	Last Updated | Wed Oct 18 17:40:12 PDT 2017 -> Fri Oct 20 11:55:10 PDT 2017
+	Changed By | colin@flowplay.com -> conor@flowplay.com
+	Description | <p>Please add the following to Vegas World:</p>
+
+<p>1. Add mobile App Store Badges to the Vegasworld.com landing page </p>
+<ul>
+	<li>Add iOS and Android App Store buttons below "Play for Free" button on landing page</li>
+	<li>See attached png</li>
+</ul>
+
+ -> <p>Please add the following to Vegas World:</p>
+
+<p>1. Add mobile App Store Badges to the Vegasworld.com landing page <br/>
+2. Add iOS and Android App Store buttons below "Play for Free" button on landing page <br/>
+3. Use the following smart link for both app store badges &#8211; <a href="https://smart.link/59ea45e89f61c" class="external-link" rel="nofollow">https://smart.link/59ea45e89f61c</a><br/>
+4.  See the attached png </p>
+
+<p>Here's the smart link for all app store CTAs &#8211; <a href="https://smart.link/59ea45e89f61c" class="external-link" rel="nofollow">https://smart.link/59ea45e89f61c</a></p>
+
+
+
+Created issue FLO-3820 (craig@flowplay.com): "VWS: UWP: Back Button in inbox messages overlaps an icon"
+
+Resolved issue FLO-3780 (craig@flowplay.com): "VWS: UWP: App crashes on load"
+
+Changed issue FLO-3760 (justin@flowplay.com): "VWC: Android user receive error making payments"
+Changes:
+	Status | NEW -> RESOLVED
+	Last Updated | Fri Oct 20 01:14:08 PDT 2017 -> Fri Oct 20 11:18:19 PDT 2017
+	Changed By | caleb@flowplay.com -> justin@flowplay.com
+	Comments | {parentIssueType=Bug, author=chance@flowplay.com, created=2017-10-19T16:28:13.834-0700, id=17329, body=<p>This wasn't assigned to anyone, but not sure who'd get it, so giving it back to Caleb.</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-10-19T16:40:00.190-0700, id=17331, body=<p>Do we know what "errors on checkout" they were experiencing?</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=caleb@flowplay.com, created=2017-10-19T17:03:59.903-0700, id=17335, body=<p>I don't think Jennifer was able to get a screenshot yet from the customer;  Creating and submitting a screenshot from an Android device is complex, and the process is not consistent from device-to-device.  My understanding was the error occurred after choosing a product and clicking the "buy" button, but it was not a payment declined error.  (something like "an error has occurred...")</p>
+
+<p>I noticed this customer had successfully made many purchases in the past (on their mobile device), so less likely to be simple user error.  I asked Heath about using rollbar to view stacktraces for this user / class, but he does not believe we are actually throwing an exception in this condition: he said the client handles exceptions here by generating an error dialog and resuming execution.  (Heath: feel free to chime in if that's not an accurate summary)</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=craig@flowplay.com, created=2017-10-19T17:11:34.037-0700, id=17336, body=<p>Title says VWC, but component said VWS - Payments. </p>
+
+<p>Can we get clarification on which client this is happening on?</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=caleb@flowplay.com, created=2017-10-19T17:16:54.523-0700, id=17337, body=<p>VWC;  I couldn't find a relevant component, but the component field was mandatory.</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=jennifer@flowplay.com, created=2017-10-19T17:17:26.341-0700, id=17338, body=<p>This is what the player said</p>
+
+<p>"get it just says oops sorry we cannot complete purchase.try again and contact support if u continue to have trouble<br/>
+Something like that"</p>
+, parentBugId=FLO-3760}, {parentIssueType=Bug, author=justin@flowplay.com, created=2017-10-19T17:26:47.304-0700, id=17339, body=<p>I will take a look tonight or in the morning</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=justin@flowplay.com, created=2017-10-20T00:50:17.646-0700, id=17346, body=<p>We did a release 9/25 and 10/12 - I don't see any changes to mobile that would affect this. Can we reach out and ask Android OS version and Device? Maybe they were updated to Android O (8.0) and is causing issues.</p>
+
+<p>We are having issues with Samsung devices (All 5 pages listed are Samsung devices) and Android 8.0 (see attached <span class="image-wrap" style=""><a id="13601_thumb" href="https://flowplay.atlassian.net/secure/attachment/13601/13601_Screen+Shot+2017-10-20+at+12.49.17+AM.png" title="Screen Shot 2017-10-20 at 12.49.17 AM.png" file-preview-type="image" file-preview-id="13601" file-preview-title="Screen Shot 2017-10-20 at 12.49.17 AM.png"><jira-attachment-thumbnail url="https://flowplay.atlassian.net/secure/thumbnail/13601/Screen+Shot+2017-10-20+at+12.49.17+AM.png?default=false" jira-url="https://flowplay.atlassian.net/secure/thumbnail/13601/Screen+Shot+2017-10-20+at+12.49.17+AM.png" filename="Screen Shot 2017-10-20 at 12.49.17 AM.png"><img src="https://flowplay.atlassian.net/secure/thumbnail/13601/Screen+Shot+2017-10-20+at+12.49.17+AM.png" data-attachment-name="Screen Shot 2017-10-20 at 12.49.17 AM.png" data-attachment-type="thumbnail" data-media-services-id="c901b3aa-9a2b-4c19-855b-b9865821b16c" data-media-services-type="file" style="border: 0px solid black" /></jira-attachment-thumbnail></a></span> </p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=caleb@flowplay.com, created=2017-10-20T01:14:08.075-0700, id=17347, body=<p>While you're waiting on version information, here's some updated info:</p>
+
+<p>This customer appears to have installed VWC on a second Android device and successfully made a purchase, so this ticket can be closed unless you're still looking for a root cause.  Afterward making a purchase on a different device, it looks like this user was able to successfully make payments on the initial platform (likely the initial device).    (perhaps they reinstalled, or this sequence of events invalidated cached purchase data?)</p>
+
+<p><span class="image-wrap" style=""><a id="13602_thumb" href="https://flowplay.atlassian.net/secure/attachment/13602/13602_vwc.jpg" title="vwc.jpg" file-preview-type="image" file-preview-id="13602" file-preview-title="vwc.jpg"><jira-attachment-thumbnail url="https://flowplay.atlassian.net/secure/thumbnail/13602/vwc.jpg?default=false" jira-url="https://flowplay.atlassian.net/secure/thumbnail/13602/vwc.jpg" filename="vwc.jpg"><img src="https://flowplay.atlassian.net/secure/thumbnail/13602/vwc.jpg" data-attachment-name="vwc.jpg" data-attachment-type="thumbnail" data-media-services-id="e9dfe37c-cd76-47da-94ab-e0c366390bb5" data-media-services-type="file" style="border: 0px solid black" /></jira-attachment-thumbnail></a></span> </p>
+
+
+<p>SELECT <br/>
+	DATE_FORMAT(creation_datetime, '%Y-%m-%d') AS theDate,<br/>
+	ETI.element_string AS platform, <br/>
+	IFNULL(payment_successful, 0) AS payment_sucessful,<br/>
+	COUNT( * )<br/>
+ FROM vg_finance1.payment_order PO<br/>
+ JOIN vg_master1.enumerated_types_int ETI ON PO.platform = ETI.element<br/>
+				AND ETI.type = 'ValuesPlatform'</p>
+
+<p> WHERE user_id = 14277863<br/>
+ GROUP BY theDate, platform, payment_sucessful<br/>
+ ORDER BY creation_datetime DESC;</p>, parentBugId=FLO-3760} -> {parentIssueType=Bug, author=chance@flowplay.com, created=2017-10-19T16:28:13.834-0700, id=17329, body=<p>This wasn't assigned to anyone, but not sure who'd get it, so giving it back to Caleb.</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-10-19T16:40:00.190-0700, id=17331, body=<p>Do we know what "errors on checkout" they were experiencing?</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=caleb@flowplay.com, created=2017-10-19T17:03:59.903-0700, id=17335, body=<p>I don't think Jennifer was able to get a screenshot yet from the customer;  Creating and submitting a screenshot from an Android device is complex, and the process is not consistent from device-to-device.  My understanding was the error occurred after choosing a product and clicking the "buy" button, but it was not a payment declined error.  (something like "an error has occurred...")</p>
+
+<p>I noticed this customer had successfully made many purchases in the past (on their mobile device), so less likely to be simple user error.  I asked Heath about using rollbar to view stacktraces for this user / class, but he does not believe we are actually throwing an exception in this condition: he said the client handles exceptions here by generating an error dialog and resuming execution.  (Heath: feel free to chime in if that's not an accurate summary)</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=craig@flowplay.com, created=2017-10-19T17:11:34.037-0700, id=17336, body=<p>Title says VWC, but component said VWS - Payments. </p>
+
+<p>Can we get clarification on which client this is happening on?</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=caleb@flowplay.com, created=2017-10-19T17:16:54.523-0700, id=17337, body=<p>VWC;  I couldn't find a relevant component, but the component field was mandatory.</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=jennifer@flowplay.com, created=2017-10-19T17:17:26.341-0700, id=17338, body=<p>This is what the player said</p>
+
+<p>"get it just says oops sorry we cannot complete purchase.try again and contact support if u continue to have trouble<br/>
+Something like that"</p>
+, parentBugId=FLO-3760}, {parentIssueType=Bug, author=justin@flowplay.com, created=2017-10-19T17:26:47.304-0700, id=17339, body=<p>I will take a look tonight or in the morning</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=justin@flowplay.com, created=2017-10-20T00:50:17.646-0700, id=17346, body=<p>We did a release 9/25 and 10/12 - I don't see any changes to mobile that would affect this. Can we reach out and ask Android OS version and Device? Maybe they were updated to Android O (8.0) and is causing issues.</p>
+
+<p>We are having issues with Samsung devices (All 5 pages listed are Samsung devices) and Android 8.0 (see attached <span class="image-wrap" style=""><a id="13601_thumb" href="https://flowplay.atlassian.net/secure/attachment/13601/13601_Screen+Shot+2017-10-20+at+12.49.17+AM.png" title="Screen Shot 2017-10-20 at 12.49.17 AM.png" file-preview-type="image" file-preview-id="13601" file-preview-title="Screen Shot 2017-10-20 at 12.49.17 AM.png"><jira-attachment-thumbnail url="https://flowplay.atlassian.net/secure/thumbnail/13601/Screen+Shot+2017-10-20+at+12.49.17+AM.png?default=false" jira-url="https://flowplay.atlassian.net/secure/thumbnail/13601/Screen+Shot+2017-10-20+at+12.49.17+AM.png" filename="Screen Shot 2017-10-20 at 12.49.17 AM.png"><img src="https://flowplay.atlassian.net/secure/thumbnail/13601/Screen+Shot+2017-10-20+at+12.49.17+AM.png" data-attachment-name="Screen Shot 2017-10-20 at 12.49.17 AM.png" data-attachment-type="thumbnail" data-media-services-id="c901b3aa-9a2b-4c19-855b-b9865821b16c" data-media-services-type="file" style="border: 0px solid black" /></jira-attachment-thumbnail></a></span> </p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=caleb@flowplay.com, created=2017-10-20T01:14:08.075-0700, id=17347, body=<p>While you're waiting on version information, here's some updated info:</p>
+
+<p>This customer appears to have installed VWC on a second Android device and successfully made a purchase, so this ticket can be closed unless you're still looking for a root cause.  Afterward making a purchase on a different device, it looks like this user was able to successfully make payments on the initial platform (likely the initial device).    (perhaps they reinstalled, or this sequence of events invalidated cached purchase data?)</p>
+
+<p><span class="image-wrap" style=""><a id="13602_thumb" href="https://flowplay.atlassian.net/secure/attachment/13602/13602_vwc.jpg" title="vwc.jpg" file-preview-type="image" file-preview-id="13602" file-preview-title="vwc.jpg"><jira-attachment-thumbnail url="https://flowplay.atlassian.net/secure/thumbnail/13602/vwc.jpg?default=false" jira-url="https://flowplay.atlassian.net/secure/thumbnail/13602/vwc.jpg" filename="vwc.jpg"><img src="https://flowplay.atlassian.net/secure/thumbnail/13602/vwc.jpg" data-attachment-name="vwc.jpg" data-attachment-type="thumbnail" data-media-services-id="e9dfe37c-cd76-47da-94ab-e0c366390bb5" data-media-services-type="file" style="border: 0px solid black" /></jira-attachment-thumbnail></a></span> </p>
+
+
+<p>SELECT <br/>
+	DATE_FORMAT(creation_datetime, '%Y-%m-%d') AS theDate,<br/>
+	ETI.element_string AS platform, <br/>
+	IFNULL(payment_successful, 0) AS payment_sucessful,<br/>
+	COUNT( * )<br/>
+ FROM vg_finance1.payment_order PO<br/>
+ JOIN vg_master1.enumerated_types_int ETI ON PO.platform = ETI.element<br/>
+				AND ETI.type = 'ValuesPlatform'</p>
+
+<p> WHERE user_id = 14277863<br/>
+ GROUP BY theDate, platform, payment_sucessful<br/>
+ ORDER BY creation_datetime DESC;</p>, parentBugId=FLO-3760}, {parentIssueType=Bug, author=justin@flowplay.com, created=2017-10-20T11:18:19.522-0700, id=17354, body=<p>This seems to have resolved itself and without mobile server logging we don't know what the error is.</p>, parentBugId=FLO-3760}
+
+Resolved issue FLO-3679 (mbradwin@flowplay.com): "New incentive: Make a friend (audience definition)"
+
+Changed issue FLO-3761 (caleb@flowplay.com): "All: Stats project planning w/Eugene"
+Changes:
+	Status | TO DO -> STARTED
+	Last Updated | Mon Oct 16 15:04:02 PDT 2017 -> Fri Oct 20 10:45:33 PDT 2017
+
+Changed issue FLO-3656 (colin@flowplay.com): "HX: Fonts in JSP file for HTML5"
+Changes:
+	Assignee | colin@flowplay.com -> scott@flowplay.com
+	Last Updated | Thu Oct 19 10:19:00 PDT 2017 -> Fri Oct 20 10:58:39 PDT 2017
+	Changed By | scott@flowplay.com -> colin@flowplay.com
+	Comments | {parentIssueType=Task, author=colin@flowplay.com, created=2017-10-18T16:09:18.478-0700, id=17283, body=<p>sent you a patch for this, server side changes are checked in</p>, parentBugId=FLO-3656}, {parentIssueType=Task, author=scott@flowplay.com, created=2017-10-18T16:21:55.772-0700, id=17288, body=<p>Sent back, hoping that we can point at the font files in Modules/Fonts rather than copying them to the Assets path.</p>, parentBugId=FLO-3656}, {parentIssueType=Task, author=colin@flowplay.com, created=2017-10-18T16:36:19.970-0700, id=17293, body=<p>new patch in your email</p>, parentBugId=FLO-3656}, {parentIssueType=Task, author=scott@flowplay.com, created=2017-10-19T10:19:00.753-0700, id=17316, body=<p>This is checked in but we are having issues when building locally.  Assigning back to Colin to investigate.</p>, parentBugId=FLO-3656} -> {parentIssueType=Task, author=colin@flowplay.com, created=2017-10-18T16:09:18.478-0700, id=17283, body=<p>sent you a patch for this, server side changes are checked in</p>, parentBugId=FLO-3656}, {parentIssueType=Task, author=scott@flowplay.com, created=2017-10-18T16:21:55.772-0700, id=17288, body=<p>Sent back, hoping that we can point at the font files in Modules/Fonts rather than copying them to the Assets path.</p>, parentBugId=FLO-3656}, {parentIssueType=Task, author=colin@flowplay.com, created=2017-10-18T16:36:19.970-0700, id=17293, body=<p>new patch in your email</p>, parentBugId=FLO-3656}, {parentIssueType=Task, author=scott@flowplay.com, created=2017-10-19T10:19:00.753-0700, id=17316, body=<p>This is checked in but we are having issues when building locally.  Assigning back to Colin to investigate.</p>, parentBugId=FLO-3656}, {parentIssueType=Task, author=colin@flowplay.com, created=2017-10-20T10:58:39.459-0700, id=17353, body=<p>task tennis continues! server side changes are all checked in.</p>, parentBugId=FLO-3656}
+
+Resolved issue FLO-3602 (mbradwin@flowplay.com): "All: Various bet zone admin page fixes"
+
+Resolved issue FLO-3524 (arnewsome@flowplay.com): "HX: Roulette: Other players' bets are visible on the table"
+
+Resolved issue FLO-2201 (jake@flowplay.com): "HX: Dragon Mahjong: World Map: Mountain 3: Asleep (gray): Art"
+
+Created issue FLO-3819 (craig@flowplay.com): "VWS: UWP: App crashed when entering party title"
+
+Changed issue FLO-2230 (russell@flowplay.com): "HX: Lottery: Dev: UI explaining that winnings are split if there are multiple winners"
+Changes:
+	Days | 2.0 -> 0.0
+	Last Updated | Wed Oct 18 16:01:36 PDT 2017 -> Fri Oct 20 10:33:44 PDT 2017
+
+Created issue FLO-3816 (caleb@flowplay.com): "All: Update PaymentsDaily (dm_summary_daily) dataset to include booleans for in_last_x_days"
+
+Resolved issue FLO-3670 (craig@flowplay.com): "VWS: UWP: Crash selecting charm in charm party creation menu"
+
+Changed issue FLO-3672 (devin@flowplay.com): "All: Product owner for bugs"
+Changes:
+	Status | TO DO -> STARTED
+	Last Updated | Thu Oct 12 14:55:49 PDT 2017 -> Fri Oct 20 09:55:02 PDT 2017
+	Changed By | scott@flowplay.com -> devin@flowplay.com
+
+Resolved issue FLO-3595 (ron@flowplay.com): "Halloween Charms - Bat Ad"
+
+Created issue FLO-3815 (craig@flowplay.com): "VWS: UWP: Sounds aren't working in the app"
+
+Created issue FLO-3817 (caleb@flowplay.com): "All: Design spec for client/server stat collection framework"
+
+Changed issue FLO-3304 (caleb@flowplay.com): "VG: Fix organic user source from last few months"
+Changes:
+	Status | STARTED -> TO DO
+	Last Updated | Thu Oct 19 17:14:01 PDT 2017 -> Fri Oct 20 10:47:08 PDT 2017
+	Changed By | craig@flowplay.com -> caleb@flowplay.com
+
+Resolved issue FLO-1141 (max@flowplay.com): "VWC: (Handset) Enlarge mini profile pop up menu"
+
+Changed issue FLO-3628 (devin@flowplay.com): "FX/HX: Outfit Store lists San Diego Football as an outfit"
+Changes:
+	Status | NEW -> RESOLVED
+	Last Updated | Wed Oct 18 16:12:50 PDT 2017 -> Fri Oct 20 09:54:20 PDT 2017
+	Changed By | chance@flowplay.com -> devin@flowplay.com
+	Comments | {parentIssueType=Bug, author=doug@flowplay.com, created=2017-10-11T16:41:56.702-0700, id=17024, body=<p>Can you add a screenshot please Jack?  I don't think this will require a code change (so probably not Scott's issue) but I'm not sure which piece of content needs changing.</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=chance@flowplay.com, created=2017-10-11T16:52:10.891-0700, id=17025, body=<p>I believe this would just go to Devin. Here are the itemid's for the San Diego Football items in Vegas World and Celebrity World:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>11006501-11006510
+11006621-11006622
+14006478-14006487
+14006598-14006599
+</pre>
+</div></div>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=chance@flowplay.com, created=2017-10-11T16:59:21.786-0700, id=17026, body=<p>Also, we already have "Los Angeles Football" items. I believe those would have to be renamed to "Los Angeles R Football".</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>11006531-11006540
+11006627-11006628
+14006508-14006517
+14006604-14006605
+</pre>
+</div></div>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-10-11T17:17:40.755-0700, id=17027, body=<p>Moving to Devin per Chance.</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=scott@flowplay.com, created=2017-10-12T11:52:04.793-0700, id=17067, body=<p>Assigning to Devin, not sure how this got back to me?</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=devin@flowplay.com, created=2017-10-18T14:40:41.455-0700, id=17273, body=<p>so i'm changing the Los Angeles Football to Los Angeles R Football<br/>
+and changing San Diego Football to Los Angeles C Football?</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=chance@flowplay.com, created=2017-10-18T16:12:50.795-0700, id=17285, body=<p>Correct.</p>, parentBugId=FLO-3628} -> {parentIssueType=Bug, author=doug@flowplay.com, created=2017-10-11T16:41:56.702-0700, id=17024, body=<p>Can you add a screenshot please Jack?  I don't think this will require a code change (so probably not Scott's issue) but I'm not sure which piece of content needs changing.</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=chance@flowplay.com, created=2017-10-11T16:52:10.891-0700, id=17025, body=<p>I believe this would just go to Devin. Here are the itemid's for the San Diego Football items in Vegas World and Celebrity World:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>11006501-11006510
+11006621-11006622
+14006478-14006487
+14006598-14006599
+</pre>
+</div></div>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=chance@flowplay.com, created=2017-10-11T16:59:21.786-0700, id=17026, body=<p>Also, we already have "Los Angeles Football" items. I believe those would have to be renamed to "Los Angeles R Football".</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>11006531-11006540
+11006627-11006628
+14006508-14006517
+14006604-14006605
+</pre>
+</div></div>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-10-11T17:17:40.755-0700, id=17027, body=<p>Moving to Devin per Chance.</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=scott@flowplay.com, created=2017-10-12T11:52:04.793-0700, id=17067, body=<p>Assigning to Devin, not sure how this got back to me?</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=devin@flowplay.com, created=2017-10-18T14:40:41.455-0700, id=17273, body=<p>so i'm changing the Los Angeles Football to Los Angeles R Football<br/>
+and changing San Diego Football to Los Angeles C Football?</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=chance@flowplay.com, created=2017-10-18T16:12:50.795-0700, id=17285, body=<p>Correct.</p>, parentBugId=FLO-3628}, {parentIssueType=Bug, author=devin@flowplay.com, created=2017-10-20T09:54:20.121-0700, id=17350, body=<p>should be fixed next build.</p>
+
+<p>Devin</p>, parentBugId=FLO-3628}
+
+Changed issue FLO-1518 (scott@flowplay.com): "FX/HX: Menus: UI interacted with while minimized is broken when maximized"
+Changes:
+	Product Owner |  -> scott@flowplay.com
+	Last Updated | Tue Jun 27 16:55:41 PDT 2017 -> Fri Oct 20 09:30:54 PDT 2017
+	Changed By | michael@flowplay.com -> devin@flowplay.com
+
+Changed issue FLO-3766 (russell@flowplay.com): "Lottery: Ticket display scroll issue"
+Changes:
+	Status | NEW -> STARTED
+	Last Updated | Thu Oct 19 16:11:51 PDT 2017 -> Fri Oct 20 10:34:51 PDT 2017
+	Changed By | doug@flowplay.com -> russell@flowplay.com
+
+Created issue FLO-3821 (jmusic@flowplay.com): "HX: Dragon Mahjong Map & Level Select animation - Level  3 (Fire Dragon)"
+
+Created issue FLO-3814 (craig@flowplay.com): "VWS: qatest is crashing on launch"
+
+==== Scanning at Wed Nov 15 18:07:06 PST 2017 ====
+Changed issue FLO-4308 (colin@flowplay.com): "HX: Zone Casino Frontpage for HTML5"
+Changes:
+	Status | STARTED -> QA
+	Last Updated | Tue Nov 14 18:24:00 PST 2017 -> Wed Nov 15 18:00:16 PST 2017
+
+Changed issue FLO-4328 (colin@flowplay.com): "HTML5: Front Pages: Unknown env name: home error at login "
+Changes:
+	Status | NEW -> STARTED
+	Last Updated | Wed Nov 15 16:23:35 PST 2017 -> Wed Nov 15 18:01:25 PST 2017
+	Changed By | Justine@flowplay.com -> colin@flowplay.com
+
+Changed issue FLO-4315 (mbradwin@flowplay.com): "HX/HTML5: Warnings occurred when viewing Shane's (Dujin) profile"
+Changes:
+	Last Updated | Wed Nov 15 15:14:24 PST 2017 -> Wed Nov 15 18:05:25 PST 2017
+	Comments | {parentIssueType=Bug, author=jack@flowplay.com, created=2017-11-15T13:05:13.808-0800, id=18243, body=<p>On HX, I do get the following exception when viewing the Outfit tab of Shane's profile:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>TypeError: Error #1009: Cannot access a property or method of a null object reference.
+	at avatar.dynamic_bitmap::Person/isMale()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\dynamic_bitmap\Person.hx:1841]
+	at avatar.dynamic_bitmap::Person/createPartsForItem()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\dynamic_bitmap\Person.hx:675]
+	at avatar.dynamic_bitmap::Person/buildItemParts()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\dynamic_bitmap\Person.hx:650]
+	at MethodInfo-3307()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\dynamic_bitmap\ClothesItemLoader.hx:61]
+	at avatar.atlas::AvatarItemAtlas/callCallback()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\atlas\AvatarItemAtlas.hx:382]
+	at avatar.atlas::AvatarItemAtlas/atlasPartsMaybeLoaded()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\atlas\AvatarItemAtlas.hx:368]
+	at avatar.atlas::AvatarItemAtlas/onItemXMLLoaded()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\atlas\AvatarItemAtlas.hx:300]
+	at loading.low_level::Loadreq/callComplete()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\QLoader\src\loading\low_level\Loadreq.hx:111]
+	at loading.low_level::Qloadmgr/onLoadComplete()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\QLoader\src\loading\low_level\Qloadmgr.hx:354]
+	at loading.low_level::Qloader/callComplete()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\QLoader\src\loading\low_level\Qloader.hx:296]
+	at loading.low_level::QloaderData/onComplete()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\QLoader\src\loading\low_level\QloaderData.hx:159]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.net::URLLoader/onComplete()
+</pre>
+</div></div>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=jack@flowplay.com, created=2017-11-15T13:09:51.183-0800, id=18245, body=<p>I made the mistake of typing in a search bar and Jira reassigned this issue to me. Don't type "i".</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=david@flowplay.com, created=2017-11-15T14:03:52.214-0800, id=18249, body=<p>Hey kristen, are these url correct? These urls are outside i/vg/avatars and i/cw/avatars. We don't generate avatars for i/avatars/* assets as they include OW stuff that we know will not work in vg.</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-11-15T14:14:10.145-0800, id=18252, body=<p>It may be that we have a prebuilt Vegas avatar using an OW head?  If so we'd need to fix the prebuilt avatars (Mark B can do that if we determine that's the problem).</p>
+
+<p>The real QA check would be to go into the profile and try on each head in turn and make sure we don't get exceptions from any of them.</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-11-15T14:16:16.217-0800, id=18253, body=<p>Adding Mark to check on the item in the prebuilt avatar for Jack.  Is this an OW head?</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=scott@flowplay.com, created=2017-11-15T14:30:00.064-0800, id=18257, body=<p>We should also fix things such that a missing/invalid asset doesn't take the game down after the error/warning dialog.</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=david@flowplay.com, created=2017-11-15T14:45:59.637-0800, id=18260, body=<p>The warnings showed up because we are running a debug build (unless there is some very unlikely html only bug).</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=david@flowplay.com, created=2017-11-15T14:47:17.697-0800, id=18262, body=<p>Have we added new prebuilts lately? I'd think we'd have seen this on fx already unless it's brand new. </p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=scott@flowplay.com, created=2017-11-15T15:06:52.057-0800, id=18263, body=<p>I'm fine and happy about the warning as it shows where to look.  I'm talking about the total crash of the game which often happens after.</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-11-15T15:14:13.605-0800, id=18265, body=<p>Prebuilt appears to have item_id 1401 which is an OW item.</p>
+
+<p>So I think we need to fix that.  Going to move this to Mark B first.</p>
+
+<p>The "don't crash when an asset is missing" should be a separate bug I think?</p>, parentBugId=FLO-4315} -> {parentIssueType=Bug, author=jack@flowplay.com, created=2017-11-15T13:05:13.808-0800, id=18243, body=<p>On HX, I do get the following exception when viewing the Outfit tab of Shane's profile:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>TypeError: Error #1009: Cannot access a property or method of a null object reference.
+	at avatar.dynamic_bitmap::Person/isMale()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\dynamic_bitmap\Person.hx:1841]
+	at avatar.dynamic_bitmap::Person/createPartsForItem()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\dynamic_bitmap\Person.hx:675]
+	at avatar.dynamic_bitmap::Person/buildItemParts()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\dynamic_bitmap\Person.hx:650]
+	at MethodInfo-3307()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\dynamic_bitmap\ClothesItemLoader.hx:61]
+	at avatar.atlas::AvatarItemAtlas/callCallback()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\atlas\AvatarItemAtlas.hx:382]
+	at avatar.atlas::AvatarItemAtlas/atlasPartsMaybeLoaded()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\atlas\AvatarItemAtlas.hx:368]
+	at avatar.atlas::AvatarItemAtlas/onItemXMLLoaded()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\Avatar\src\avatar\atlas\AvatarItemAtlas.hx:300]
+	at loading.low_level::Loadreq/callComplete()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\QLoader\src\loading\low_level\Loadreq.hx:111]
+	at loading.low_level::Qloadmgr/onLoadComplete()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\QLoader\src\loading\low_level\Qloadmgr.hx:354]
+	at loading.low_level::Qloader/callComplete()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\QLoader\src\loading\low_level\Qloader.hx:296]
+	at loading.low_level::QloaderData/onComplete()[e:\fp\Main\Source\Haxe\VegasWorld\SharedX\QLoader\src\loading\low_level\QloaderData.hx:159]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.net::URLLoader/onComplete()
+</pre>
+</div></div>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=jack@flowplay.com, created=2017-11-15T13:09:51.183-0800, id=18245, body=<p>I made the mistake of typing in a search bar and Jira reassigned this issue to me. Don't type "i".</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=david@flowplay.com, created=2017-11-15T14:03:52.214-0800, id=18249, body=<p>Hey kristen, are these url correct? These urls are outside i/vg/avatars and i/cw/avatars. We don't generate avatars for i/avatars/* assets as they include OW stuff that we know will not work in vg.</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-11-15T14:14:10.145-0800, id=18252, body=<p>It may be that we have a prebuilt Vegas avatar using an OW head?  If so we'd need to fix the prebuilt avatars (Mark B can do that if we determine that's the problem).</p>
+
+<p>The real QA check would be to go into the profile and try on each head in turn and make sure we don't get exceptions from any of them.</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-11-15T14:16:16.217-0800, id=18253, body=<p>Adding Mark to check on the item in the prebuilt avatar for Jack.  Is this an OW head?</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=scott@flowplay.com, created=2017-11-15T14:30:00.064-0800, id=18257, body=<p>We should also fix things such that a missing/invalid asset doesn't take the game down after the error/warning dialog.</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=david@flowplay.com, created=2017-11-15T14:45:59.637-0800, id=18260, body=<p>The warnings showed up because we are running a debug build (unless there is some very unlikely html only bug).</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=david@flowplay.com, created=2017-11-15T14:47:17.697-0800, id=18262, body=<p>Have we added new prebuilts lately? I'd think we'd have seen this on fx already unless it's brand new. </p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=scott@flowplay.com, created=2017-11-15T15:06:52.057-0800, id=18263, body=<p>I'm fine and happy about the warning as it shows where to look.  I'm talking about the total crash of the game which often happens after.</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-11-15T15:14:13.605-0800, id=18265, body=<p>Prebuilt appears to have item_id 1401 which is an OW item.</p>
+
+<p>So I think we need to fix that.  Going to move this to Mark B first.</p>
+
+<p>The "don't crash when an asset is missing" should be a separate bug I think?</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-11-15T17:54:46.436-0800, id=18274, body=<p>Mark and I have been scanning pre-builts and starting accounts and haven't been able to find any reference to this item.</p>
+
+<p>Also this exception is not reproing for us when we login to qatest using Shane's account.  Is there more to the repro?</p>, parentBugId=FLO-4315}, {parentIssueType=Bug, author=doug@flowplay.com, created=2017-11-15T18:05:25.695-0800, id=18275, body=<p>OK mystery solved.  The key is you don't login with "shane@vegasworld.com" you login with "shane@flowplay.com" - the OW account, which is marked as a VG user in the database (so we allow the login).</p>
+
+<p>So now you're in the game "wearing" all OW clothing and blowing up the world.</p>
+
+<p>At the very least Caleb's account has this problem as well and maybe many more?</p>
+
+<p>mysql&gt; select distinct d.owner_id, game_world, name from dyn_inventory1_auto as d inner join characters on (d.owner_id=user_id) where item_id=1401 and game_world=4;<br/>
+<ins>---------<del></ins></del>----------<del><ins></del>----------</ins></p>
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'> owner_id </td>
+<td class='confluenceTd'> game_world </td>
+<td class='confluenceTd'> name      </td>
+</tr>
+</tbody></table>
+</div>
+
+<p><ins>---------<del></ins></del>----------<del><ins></del>----------</ins></p>
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>    95054 </td>
+<td class='confluenceTd'>          4 </td>
+<td class='confluenceTd'> Caleb1337 </td>
+</tr>
+</tbody></table>
+</div>
+
+<p><ins>---------<del></ins></del>----------<del><ins></del>----------</ins><br/>
+1 row in set (0.01 sec)</p>
+
+<p>mysql&gt;  select distinct d.owner_id, game_world, name from dyn_inventory2_auto as d inner join characters on (d.owner_id=user_id) where item_id=1401 and game_world=4;<br/>
+<ins>---------<del></ins></del>----------<del><ins></del>------</ins></p>
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'> owner_id </td>
+<td class='confluenceTd'> game_world </td>
+<td class='confluenceTd'> name  </td>
+</tr>
+</tbody></table>
+</div>
+
+<p><ins>---------<del></ins></del>----------<del><ins></del>------</ins></p>
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>    95019 </td>
+<td class='confluenceTd'>          4 </td>
+<td class='confluenceTd'> Dujin </td>
+</tr>
+</tbody></table>
+</div>
+
+<p><ins>---------<del></ins></del>----------<del><ins></del>------</ins><br/>
+1 row in set (0.01 sec)</p>
+
+<p>Mark - we need to go through all of the pre-built accounts and make sure the game world is set correctly for them.</p>, parentBugId=FLO-4315}
+
+==== Scanning at Tue Jan 23 11:05:29 PST 2018 ====
+Changed issue FLO-4075 (ben@flowplay.com): "FLOW: Dialogs can be completed without an close button"
+Changes:
+	Status | NEW -> STARTED
+	Last Updated | Mon Jan 22 15:20:38 PST 2018 -> Tue Jan 23 11:04:03 PST 2018
+
+Changed issue FLO-2753 (doug@flowplay.com): "All: Test bug for Hazel to work with"
+Changes:
+	Last Updated | Wed Dec 27 20:05:26 PST 2017 -> Tue Jan 23 11:04:57 PST 2018
+	Fix Before Html5 | No -> Desirable
+
+Changed issue FLO-3844 (ben@flowplay.com): "FLOW: FLOW client UI support for Party passes, months of VIP, and months of Elite."
+Changes:
+	Status | STARTED -> BLOCKED
+	Last Updated | Tue Jan 23 10:59:07 PST 2018 -> Tue Jan 23 11:04:41 PST 2018
+	Changed By | craig@flowplay.com -> mbradwin@flowplay.com
+	Comments | {parentIssueType=Task, author=ben@flowplay.com, created=2018-01-22T09:53:08.737-0800, id=20178, body=<p><a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=craig" class="user-hover" rel="craig">Craig Robinson</a>- When you have some time, can we please talk a little more about the expected outcome for this work?</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=ben@flowplay.com, created=2018-01-22T15:21:51.913-0800, id=20211, body=<p>These are new award type values.</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=ben@flowplay.com, created=2018-01-22T15:23:46.859-0800, id=20212, body=<p><a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=mbradwin" class="user-hover" rel="mbradwin">Mark Bradwin</a> &#45; <a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=craig" class="user-hover" rel="craig">Craig Robinson</a> mentioned that you might have some input on this issue.</p>
+
+<p>Do we currently have values on the server to represent these new award types?</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=mbradwin@flowplay.com, created=2018-01-22T15:36:47.720-0800, id=20214, body=<p>I just added the values and patched them to playtest. It should be safe to reference these new award types after next release (1 week from today)</p>
+
+<p>New award types are "party_passes", "months_membership", and "months_platinum_membership". Platinum is our internal name for Elite.</p>
+
+<p>@Craig, I will need a new story to actually hand these out on the server.</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=ben@flowplay.com, created=2018-01-23T10:57:07.492-0800, id=20255, body=<p><a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=craig" class="user-hover" rel="craig">Craig Robinson</a> &#45; Is the Party Pass award an integer value, or is it like a charm where a different award value interface is rendered, and the user can choose from a list of charm images and values?</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=craig@flowplay.com, created=2018-01-23T10:58:53.430-0800, id=20256, body=<p>That's a good question. <a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=mbradwin" class="user-hover" rel="mbradwin">Mark Bradwin</a>, do you know? Do we have multiple types of party passes that we would award?</p>, parentBugId=FLO-3844} -> {parentIssueType=Task, author=ben@flowplay.com, created=2018-01-22T09:53:08.737-0800, id=20178, body=<p><a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=craig" class="user-hover" rel="craig">Craig Robinson</a>- When you have some time, can we please talk a little more about the expected outcome for this work?</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=ben@flowplay.com, created=2018-01-22T15:21:51.913-0800, id=20211, body=<p>These are new award type values.</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=ben@flowplay.com, created=2018-01-22T15:23:46.859-0800, id=20212, body=<p><a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=mbradwin" class="user-hover" rel="mbradwin">Mark Bradwin</a> &#45; <a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=craig" class="user-hover" rel="craig">Craig Robinson</a> mentioned that you might have some input on this issue.</p>
+
+<p>Do we currently have values on the server to represent these new award types?</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=mbradwin@flowplay.com, created=2018-01-22T15:36:47.720-0800, id=20214, body=<p>I just added the values and patched them to playtest. It should be safe to reference these new award types after next release (1 week from today)</p>
+
+<p>New award types are "party_passes", "months_membership", and "months_platinum_membership". Platinum is our internal name for Elite.</p>
+
+<p>@Craig, I will need a new story to actually hand these out on the server.</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=ben@flowplay.com, created=2018-01-23T10:57:07.492-0800, id=20255, body=<p><a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=craig" class="user-hover" rel="craig">Craig Robinson</a> &#45; Is the Party Pass award an integer value, or is it like a charm where a different award value interface is rendered, and the user can choose from a list of charm images and values?</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=craig@flowplay.com, created=2018-01-23T10:58:53.430-0800, id=20256, body=<p>That's a good question. <a href="https://flowplay.atlassian.net/secure/ViewProfile.jspa?name=mbradwin" class="user-hover" rel="mbradwin">Mark Bradwin</a>, do you know? Do we have multiple types of party passes that we would award?</p>, parentBugId=FLO-3844}, {parentIssueType=Task, author=mbradwin@flowplay.com, created=2018-01-23T11:04:41.717-0800, id=20257, body=<p>A party pass is basically gems that can only be spent on going to charm parties. So the award value would just be the number of gems you want.</p>, parentBugId=FLO-3844}
+
